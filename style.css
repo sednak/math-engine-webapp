@@ -1,0 +1,57 @@
+body{
+    background:#0d0d0d;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+    margin:0;
+    padding:20px;
+}
+
+h1{
+    color:#00ffcc;
+}
+
+.controls{
+    margin-bottom:20px;
+}
+
+input{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    width:180px;
+}
+
+button{
+    padding:10px 15px;
+    margin:5px;
+    border:none;
+    border-radius:5px;
+    background:#00ffcc;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00ccaa;
+}
+
+canvas{
+    background:black;
+    border:2px solid #00ffcc;
+    max-width:100%;
+}
+
+.panel{
+    width:600px;
+    max-width:100%;
+    margin:20px auto;
+    background:#1a1a1a;
+    padding:20px;
+    border-radius:10px;
+    text-align:left;
+}
+
+ul{
+    padding-left:20px;
+}

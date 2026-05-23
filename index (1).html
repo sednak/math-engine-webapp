@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Math Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Pro Math Engine</h1>
+
+<div class="controls">
+
+    <input type="number" id="n" placeholder="Enter number">
+
+    <button onclick="analyze()">Analyze</button>
+    <button onclick="ulam()">Ulam Spiral</button>
+    <button onclick="primeGraph()">Prime Graph</button>
+    <button onclick="modCircle()">Mod Circle</button>
+
+    <button onclick="download()">Download Report</button>
+
+</div>
+
+<canvas id="canvas" width="600" height="600"></canvas>
+
+<div class="panel">
+
+    <h2>Results</h2>
+    <p id="result"></p>
+
+    <h2>Explanation</h2>
+    <p id="explain"></p>
+
+    <h2>History</h2>
+    <ul id="history"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
